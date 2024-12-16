@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Food Ordering App - Client Side
 
-## Getting Started
+This is the **Client-Side** of the Food Ordering Application. It provides a user-friendly interface to manage users, menu items, orders, and restaurants. The application is built using modern **React** with **Next.js**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Table of Contents**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Project Structure](#project-structure)
+5. [Setup Instructions](#setup-instructions)
+6. [Available Scripts](#available-scripts)
+7. [Screenshots](#screenshots)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## **Overview**
 
-## Learn More
+The Food Ordering Client-Side program allows users to:
 
-To learn more about Next.js, take a look at the following resources:
+- Manage users: add, update, and list all users.
+- View and add menu items.
+- Handle orders: create, update, and view all orders.
+- Manage restaurants: add and view restaurant details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It serves as the front-end for interacting with the Food Ordering backend API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## **Features**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Users Management**
+   - List all users.
+   - Add a new user.
+   - Update user details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Menu Items Management**
+   - View available menu items.
+   - Add new menu items.
+
+3. **Order Management**
+   - List all orders.
+   - Add and update orders.
+
+4. **Restaurant Management**
+   - View restaurants.
+   - Add new restaurants.
+
+5. **Navigation**
+   - A clean navigation bar for quick access to each feature.
+
+---
+
+## **Technologies Used**
+
+- **React**: For building the UI components.
+- **Next.js**: A React framework for server-side rendering and routing.
+- **CSS**: For styling components.
+- **JavaScript**: Programming language for the client-side logic.
+- **REST API**: Backend API integration.
+
+---
+
+## **Project Structure**
+
+Here’s the directory structure of the project:
+
